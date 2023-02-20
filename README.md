@@ -22,7 +22,7 @@ This module is responsible for creating a website hosted on Amazon S3 with a cus
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | aws_region | Name of AWS region in which you want to create resources | `string` | `n/a` | yes |
-| project | Name of the project | `string` | `devops-in-a-box` | yes |
+| project | Name of the project | `string` | `` | yes |
 | environment | Name of the application environment(dev/prod/qa) | `string` | `n/a` | yes |
 | username | Name of the user who is deploying the resources | `string` | `n/a` | yes |
 | versioning | Either you want to enable versioning for S3 bucket or not | `bool` | false | no |
