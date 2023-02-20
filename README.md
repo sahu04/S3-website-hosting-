@@ -27,7 +27,7 @@ This module is responsible for creating a website hosted on Amazon S3 with a cus
 | username | Name of the user who is deploying the resources | `string` | `n/a` | yes |
 | versioning | Either you want to enable versioning for S3 bucket or not | `bool` | false | no |
 | acl | It defines which AWS accounts or groups are granted access and the type of access | `string` | "" | no |
-| domain_name | The domain name for the website | `string` | "dev.devopsinabox.aaic.cc" | yes |
+| domain_name | The domain name for the website | `string` | "" | yes |
 | bucket_name | The name of the bucket without the www. prefix(normally domain_name) | `string` | "" | yes | no |
 | validation_method | Give validation method to validate the ssl certificate(DNS or EMAIL) | `string` | "" | yes |
 
